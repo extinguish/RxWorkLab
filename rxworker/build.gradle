@@ -1,0 +1,55 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile 'io.reactivex:rxjava:1.2.2'
+    compile 'io.reactivex:rxnetty-http:0.5.2-rc.4'
+    compile 'com.netflix.hystrix:hystrix-core:1.5.8'
+    compile 'com.netflix.hystrix:hystrix-metrics-event-stream:1.5.8'
+
+    compile 'com.google.guava:guava:18.0'
+    compile 'org.apache.commons:commons-collections4:4.1'
+    compile 'org.apache.commons:commons-lang3:3.5'
+    compile 'commons-dbutils:commons-dbutils:1.6'
+    compile 'commons-io:commons-io:2.5'
+    compile 'commons-dbutils:commons-dbutils:1.6'
+
+    compile 'ch.qos.logback:logback-classic:1.1.7'
+    compile 'org.slf4j:slf4j-api:1.7.21'
+    compile 'io.dropwizard:dropwizard-metrics:1.0.3'
+
+    compile 'org.springframework:spring-context:4.3.4.RELEASE'
+    compile 'org.springframework:spring-jms:4.3.4.RELEASE'
+    compile 'org.springframework:spring-jdbc:4.3.4.RELEASE'
+
+    compile 'com.google.android:android:4.1.1.4'
+//    compile 'com.jakewharton.rxbinding:rxbinding:0.4.0'
+
+    compile 'org.postgresql:postgresql:9.4-1206-jdbc42'
+    compile 'org.twitter4j:twitter4j-stream:4.0.5'
+    compile 'com.ning:async-http-client:1.9.40'
+
+    compile 'javax.jms:jms-api:1.1-rev-1'
+    compile 'org.apache.activemq:activemq-client:5.14.1'
+    compile 'org.eclipse.jetty:jetty-servlet:9.4.0.RC2'
+
+    compile 'com.couchbase.client:java-client:2.3.5'
+    compile 'org.mongodb:mongodb-driver-rx:1.2.0'
+
+    compile 'org.apache.camel:camel-rx:2.17.3'
+    compile 'org.apache.camel:camel-kafka:2.17.3'
+    compile 'org.apache.activemq:activemq-camel:5.14.0'
+    compile 'org.apache.activemq:activemq-client:5.14.0'
+
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.1'
+    compile 'com.squareup.retrofit2:converter-jackson:2.0.1'
+
+    compile 'junit:junit:4.12'
+    compile 'org.assertj:assertj-core:3.5.2'
+    compile 'org.mockito:mockito-core:2.2.15'
+
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
